@@ -4,7 +4,7 @@ import { Button } from "./Button";
 export const About = () => {
   const skills = ["TypeScript", "Node.js", "React", "Terraform", "AWS"];
   return (
-    <div className="max-w-4xl">
+    <div className="max-w-4xl py-28" id="about">
       <div className="flex items-center relative w-full">
         <p className="text-cyan-500 mb-4 mr-2">[0]</p>
         <h2 className="text-glitch text-3xl ">&lt;AboutMe&gt;</h2>
@@ -12,11 +12,11 @@ export const About = () => {
       <div className="flex">
         <div className="block bg-cyan-400 w-px ml-8"></div>
         <div className="ml-4 mt-2 flex flex-col">
+          <p className="mb-4">Hey&#128075;</p>
           <p className="mb-4">
-            Hey&#128075; My name is Henrique and I love using technology to
-            solve problems. I&apos;m currently a computer and software systems
-            student at the Univeristy of Melbourne and an associate engineer at
-            Sidekicker.
+            My name is Henrique and I love using technology to solve problems.
+            I&apos;m currently a computer and software systems student at the
+            Univeristy of Melbourne and an associate engineer at Sidekicker.
           </p>
 
           <p className="mb-4">
@@ -27,7 +27,7 @@ export const About = () => {
           </p>
 
           <p className="mb-4">
-            Currently I&apos;m leaning about Artificial Intelligence and
+            Currently I&apos;m learning about Artificial Intelligence and
             it&apos;s applications. Check out my second brain where I&apos;m
             learning in public!
           </p>

@@ -6,9 +6,7 @@ export const Hero = () => {
   );
   const two = (
     <i>
-      <h2 className="text-more-glitch text-6xl mb-2 font-sans">
-        Henrique Pureza
-      </h2>
+      <h2 className="text-glitch text-6xl mb-2 font-sans">Henrique Pureza</h2>
     </i>
   );
   const three = (
@@ -21,7 +19,7 @@ export const Hero = () => {
       <p className="mt-5 max-w-xl">
         I love building and problem solving with code. I have a keen interest in
         AI and its applications. Currently an associate software engineer for
-        Sidekicker
+        Sidekicker.
       </p>
     </>
   );

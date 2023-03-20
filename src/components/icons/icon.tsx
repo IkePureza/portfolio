@@ -5,14 +5,15 @@ import IconLogo from "./logo";
 import IconExternal from "./external";
 import { IconSecondBrain } from "./secondBrain";
 
-interface IconProps {
-  name: string;
+export interface IconProps {
+  name?: string;
+  size?: string;
 }
 
-const Icon = (props: IconProps) => {
-  switch (props.name) {
+const Icon = ({ name, size }: IconProps) => {
+  switch (name) {
     case "GitHub":
-      return <IconGitHub />;
+      return <IconGitHub size={size} />;
     case "Linkedin":
       return <IconLinkedin />;
     case "Logo":
@@ -20,7 +21,7 @@ const Icon = (props: IconProps) => {
     case "SecondBrain":
       return <IconSecondBrain />;
     default:
-      return <IconExternal />;
+      return <IconExternal size={size} />;
   }
 };
 
