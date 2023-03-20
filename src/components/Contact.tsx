@@ -17,7 +17,9 @@ export const Contact = () => {
           best to get back to you!
         </p>
 
-        <Button href={`mailto:`}>Hey!&#128075;</Button>
+        <Button href={`mailto:henriquepureza13@gmail.com`}>
+          Hey!&#128075;
+        </Button>
       </div>
     </section>
   );
