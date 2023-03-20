@@ -64,7 +64,7 @@ export const NavBar = () => {
             </Link>
 
             <div className="p-3 ml-4">
-              <Button href="/resume.pdf"> Resume</Button>
+              <Button href="/resume.docx"> Resume</Button>
               {/* <a
                 className="ml-4 text-sm text-cyan-400 border-[1px] border-cyan-400
                  rounded p-3"
