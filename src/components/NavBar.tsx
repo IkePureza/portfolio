@@ -59,7 +59,7 @@ export const NavBar = () => {
                 </li>
               ))}
             <p className="text-cyan-500 mr-6">]</p>
-            <Link href={"asd"}>
+            <Link href={"https://publish.obsidian.md/henrique/Why%3F"}>
               <IconSecondBrain></IconSecondBrain>
             </Link>
 

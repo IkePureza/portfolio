@@ -10,11 +10,11 @@ const socials = [
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/bchiang7",
+    url: "https://www.linkedin.com/in/henrique-pureza-13867b169/",
   },
   {
     name: "SecondBrain",
-    url: "https://github.com/ikepureza",
+    url: "https://publish.obsidian.md/henrique/Why%3F",
   },
 ];
 

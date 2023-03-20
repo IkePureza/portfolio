@@ -16,7 +16,7 @@ export interface ProjectCardProps {
 export const ProjectCard = (props: ProjectCardProps) => {
   return (
     <div>
-      <div className="p-6 card-glitch bg-blue-900 flex items-start">
+      <div className="p-6 card-glitch bg-blue-900 flex items-start border border-cyan-500">
         <Image
           src={props.image}
           alt="utime"

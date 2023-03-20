@@ -32,7 +32,9 @@ export const About = () => {
             learning in public!
           </p>
 
-          <Button href="htl">Second Brain</Button>
+          <Button href="https://publish.obsidian.md/henrique/Why%3F">
+            Second Brain
+          </Button>
 
           <p className="my-4">What I&apos;m currently working with:</p>
           <ul className="grid grid-cols-2 gap-y-3 p-0 ml-5 overflow-hidden list-none">
