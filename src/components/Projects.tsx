@@ -1,6 +1,5 @@
 import React from "react";
 import { ProjectCard, ProjectCardProps } from "./ProjectCard";
-import { getImpliedNodeFormatForFile } from "typescript";
 
 const projects: ProjectCardProps[] = [
   {
@@ -22,7 +21,7 @@ const projects: ProjectCardProps[] = [
     title: "E-commerce Website",
     desc: "Built a Fully Functional E-commerce website using MERN Stack. It allows clients to add products and users to add to cart, checkout and pay with paypal",
     image: "/ecommerce.png",
-    githubLink: "https://github.com/IkePureza/shitimes",
+    githubLink: "https://github.com/IkePureza/EcommerceWebsite",
     techStack: ["Javascript", "Redux", "GraphQL", "TailwindCSS"],
     externalLink: "https://my-ecommerce-app00.herokuapp.com/",
   },
@@ -36,7 +35,7 @@ export const Projects = () => {
           <p className="text-cyan-500 mb-4 mr-2">[2]</p>
           <h2 className="text-glitch text-3xl ">&lt;Projects&gt;</h2>
         </div>
-        <div className="flex flex-col py-28  justify-center items-center">
+        <div className="flex flex-col py-28 justify-center items-center">
           {projects &&
             projects.map((props, i) => (
               <div key={i} className="max-w-4xl mb-8">

@@ -31,7 +31,13 @@ export const Experience = () => {
             <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-xl">
                 Associate Software Engineer (Platform Team){" "}
-                <a className="text-cyan-400"> @Sidekicker</a>
+                <a
+                  href={"https://www.sidekicker.com"}
+                  className="text-cyan-400"
+                >
+                  {" "}
+                  @Sidekicker
+                </a>
               </h3>
               <p className="text-sm leading-snug tracking-wide text-opacity-100">
                 Working closely with staff and principal engineers to deliver
@@ -64,7 +70,12 @@ export const Experience = () => {
             <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-white text-xl">
                 Associate Software Engineer (QA){" "}
-                <a className="text-cyan-400">@Tribe</a>
+                <a
+                  href={"https://www.tribegroup.co/"}
+                  className="text-cyan-400"
+                >
+                  @Tribe
+                </a>
               </h3>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
                 Designed and developed an automated testing suite for
@@ -96,7 +107,9 @@ export const Experience = () => {
             <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-xl">
                 Intern Software Engineer{" "}
-                <a className="text-cyan-400">@InTheCode</a>
+                <a href="https://inthecode.com.au/" className="text-cyan-400">
+                  @InTheCode
+                </a>
               </h3>
               <p className="text-sm leading-snug tracking-wide text-opacity-100">
                 As a software developer intern at In The Code, I was responsible
