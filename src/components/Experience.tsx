@@ -30,7 +30,7 @@ export const Experience = () => {
             </div>
             <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-xl">
-                Associate Software Engineer (Platform Team){" "}
+                Fullstack Software Engineer (Platform Team){" "}
                 <a
                   href={"https://www.sidekicker.com"}
                   className="text-cyan-400"
@@ -42,10 +42,10 @@ export const Experience = () => {
               <p className="text-sm leading-snug tracking-wide text-opacity-100">
                 Working closely with staff and principal engineers to deliver
                 infrastructure and developer enabling systems. Took
-                responsibility to design and implement a business event logging
-                system to be used by developers and staff within the company.
-                Worked on implementing elastic search to our apis to increase
-                performance.
+                responsibility to architect and implement a business event
+                logging system to be used by developers and staff within the
+                company. Worked on implementing elastic search to our apis to
+                increase performance.
               </p>
               <ul className="mt-4 grid grid-cols-2 gap-y-3 p-0 ml-5 overflow-hidden list-none">
                 {skills1.map((skill, i) => (
@@ -69,7 +69,7 @@ export const Experience = () => {
             </div>
             <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
               <h3 className="mb-3 font-bold text-white text-xl">
-                Associate Software Engineer (QA){" "}
+                Associate Software Engineer{" "}
                 <a
                   href={"https://www.tribegroup.co/"}
                   className="text-cyan-400"

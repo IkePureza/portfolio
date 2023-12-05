@@ -18,7 +18,7 @@ export const Hero = () => {
     <>
       <p className="mt-5 max-w-xl">
         I love building and problem solving with code. I have a keen interest in
-        AI and its applications. Currently an associate software engineer for
+        AI and its applications. Currently a full stack software engineer for
         Sidekicker.
       </p>
     </>

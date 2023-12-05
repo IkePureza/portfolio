@@ -14,7 +14,7 @@ const socials = [
   },
   {
     name: "SecondBrain",
-    url: "https://publish.obsidian.md/henrique/Why%3F",
+    url: "https://publish.obsidian.md/pureza-digital-garden/Welcome+to+my+Digital+Garden",
   },
 ];
 

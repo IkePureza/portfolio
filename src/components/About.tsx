@@ -14,9 +14,10 @@ export const About = () => {
         <div className="ml-4 mt-2 flex flex-col">
           <p className="mb-4">Hey&#128075;</p>
           <p className="mb-4">
-            My name is Henrique and I love using technology to solve problems.
-            I&apos;m currently a computer and software systems student at the
-            Univeristy of Melbourne and an associate engineer at Sidekicker.
+            I&apos;m Henrique, dedicated to using technology for creative
+            problem-solving. Formerly a computer and software systems student at
+            the University of Melbourne. Currently a full stack software
+            engineer at Sidekicker.
           </p>
 
           <p className="mb-4">
@@ -32,7 +33,7 @@ export const About = () => {
             learning in public!
           </p>
 
-          <Button href="https://publish.obsidian.md/henrique/Why%3F">
+          <Button href="https://publish.obsidian.md/pureza-digital-garden/Welcome+to+my+Digital+Garden">
             Second Brain
           </Button>
 

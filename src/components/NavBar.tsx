@@ -59,12 +59,16 @@ export const NavBar = () => {
                 </li>
               ))}
             <p className="text-cyan-500 mr-6">]</p>
-            <Link href={"https://publish.obsidian.md/henrique/Why%3F"}>
+            <Link
+              href={
+                "https://publish.obsidian.md/pureza-digital-garden/Welcome+to+my+Digital+Garden"
+              }
+            >
               <IconSecondBrain></IconSecondBrain>
             </Link>
 
             <div className="p-3 ml-4">
-              <Button href="/resume.docx"> Resume</Button>
+              <Button href="/resume.pdf"> Resume</Button>
             </div>
           </ol>
         </div>
