@@ -14,23 +14,15 @@ export const About = () => {
         <div className="ml-4 mt-2 flex flex-col">
           <p className="mb-4">Hey&#128075;</p>
           <p className="mb-4">
-            I&apos;m Henrique, dedicated to using technology for creative
-            problem-solving. Formerly a computer and software systems student at
-            the University of Melbourne. Currently a full stack software
-            engineer at Sidekicker.
+            Welcome to my portfolio! I'm Henrique, formerly a computer and
+            software systems student at the University of Melbourne. Currently a
+            full stack software engineer at Secure Code Warrior.
           </p>
 
           <p className="mb-4">
-            I have attained a few years of experience while studying my degree,
-            which enabled me to hone my engineering skills and apply the theory
-            I learned at university. I&apos;ve had the privilege of working at a
-            software agency and two startups.
-          </p>
-
-          <p className="mb-4">
-            Currently I&apos;m learning about Artificial Intelligence and
-            it&apos;s applications. Check out my second brain where I&apos;m
-            learning in public!
+            I've been thinking a lot about AI recently and it&apos;s
+            applications. Check out my second brain where I&apos;m learning in
+            public!
           </p>
 
           <Button href="https://publish.obsidian.md/pureza-digital-garden/Welcome+to+my+Digital+Garden">

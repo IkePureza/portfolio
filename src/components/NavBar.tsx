@@ -31,7 +31,7 @@ export const NavBar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <div className="navbar backdrop-blur-0 relative">
+    <div className="navbar backdrop-blur-sm fixed z-20">
       <div className="navbar-start">
         <IconLogo></IconLogo>
       </div>

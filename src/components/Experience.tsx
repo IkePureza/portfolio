@@ -13,123 +13,139 @@ export const Experience = () => {
   const skills3 = ["Nodejs", "Angular", "MongoDB", "Linux"];
   return (
     <div className="py-28" id="experience">
-      <div className="flex items-center relative w-full">
+      <div className="flex items-center relative w-full mb-10">
         <p className="text-cyan-500 mb-4 mr-3">[1]</p>
         <h2 className="text-glitch text-3xl ml-5">&lt;Experience&gt;</h2>
       </div>
       <div className="container mx-auto w-full h-full">
-        <div className="relative wrap overflow-hidden p-10 h-full">
-          <div className="block left-[50%] w-px absolute h-full bg-cyan-500"></div>
-
-          <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div className="order-1 w-5/12"></div>
-            <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl px-3 h-8 rounded-full">
-              <h1 className="mx-auto font-semibold text-sm text-white">
-                2021 - current
-              </h1>
+        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+          <li>
+            <hr className="bg-cyan-500" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
             </div>
-            <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 className="mb-3 font-bold text-xl">
-                Fullstack Software Engineer (Platform Team){" "}
+            <div className="timeline-start !mb-10 md:text-end ">
+              <time className="font-mono italic">2024 - Current</time>
+              <div className="text-lg font-black mb-5">
+                Fullstack Software Engineer{" "}
                 <a
-                  href={"https://www.sidekicker.com"}
-                  className="text-cyan-400"
+                  className="text-cyan-500"
+                  href="https://www.securecodewarrior.com/"
                 >
-                  {" "}
+                  @SCW
+                </a>
+              </div>
+              Contributing to enhancing and maintaining our cybersecurity
+              learning platform. My focus is on improving the developer
+              experience for high-profile clients, including VISA, Mastercard,
+              GitHub, and Morgan Stanley.
+            </div>
+            <hr className="bg-cyan-500" />
+          </li>
+          <li>
+            <hr className="bg-cyan-500" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">2021 - 2024</time>
+              <div className="text-lg font-black mb-5">
+                Fullstack Software Engineer{" "}
+                <a className="text-cyan-500" href="https://www.sidekicker.com">
                   @Sidekicker
                 </a>
-              </h3>
-              <p className="text-sm leading-snug tracking-wide text-opacity-100">
-                Working closely with staff and principal engineers to deliver
-                infrastructure and developer enabling systems. Took
-                responsibility to architect and implement a business event
-                logging system to be used by developers and staff within the
-                company. Worked on implementing elastic search to our apis to
-                increase performance.
-              </p>
-              <ul className="mt-4 grid grid-cols-2 gap-y-3 p-0 ml-5 overflow-hidden list-none">
-                {skills1.map((skill, i) => (
-                  <li
-                    className="relative text-sm mb-2 pl-5 before:content-['>'] before:text-xs before:align-middle before:mr-2 before:text-cyan-500"
-                    key={i}
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+              </div>
+              Worked closely with staff and principal engineers to deliver
+              infrastructure and developer enabling systems. Took responsibility
+              to architect and implement a business event logging system to be
+              used by developers and staff within the company. Worked on
+              implementing elastic search to our apis to increase performance.
             </div>
-          </div>
-
-          <div className="mb-8 flex justify-between items-center w-full right-timeline">
-            <div className="order-1 w-5/12"></div>
-            <div className="z-20 flex items-center order-1 bg-gray-800 shadow-xl px-3 h-8 rounded-full">
-              <h1 className="mx-auto text-white font-semibold text-sm">
-                2019 - 2020
-              </h1>
+            <hr className="bg-cyan-500" />
+          </li>
+          <li>
+            <hr className="bg-cyan-500" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
             </div>
-            <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 className="mb-3 font-bold text-white text-xl">
+            <div className="timeline-start !mb-10 md:text-end">
+              <time className="font-mono italic">2019 - 2020</time>
+              <div className="text-lg font-black mb-5">
                 Associate Software Engineer{" "}
-                <a
-                  href={"https://www.tribegroup.co/"}
-                  className="text-cyan-400"
-                >
+                <a className="text-cyan-500" href="https://www.tribegroup.co/">
                   @Tribe
                 </a>
-              </h3>
-              <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                Designed and developed an automated testing suite for
-                TRIBE&#39;s Mobiles apps using Appium and for web apps using
-                Cypress. Implemented the CI/CD for those automation suites in
-                Buildkite. Also worked on some features for the ruby on rails
-                and react codebase.
-              </p>
-              <ul className="mt-4 grid grid-cols-2 gap-y-3 p-0 ml-5 overflow-hidden list-none">
-                {skills2.map((skill, i) => (
-                  <li
-                    className="relative text-sm mb-2 pl-5 before:content-['>'] before:text-xs before:align-middle before:mr-2 before:text-cyan-500"
-                    key={i}
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+              </div>
+              Designed and developed an automated testing suite for TRIBE&#39;s
+              Mobiles apps using Appium and for web apps using Cypress.
+              Implemented the CI/CD for those automation suites in Buildkite.
+              Also worked on some features for the ruby on rails and react
+              codebase.
             </div>
-          </div>
-
-          <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-            <div className="order-1 w-5/12"></div>
-            <div className="z-20 flex items-center order-1 shadow-xl bg-gray-800 px-3 h-8 rounded-full">
-              <h1 className="mx-auto text-white font-semibold text-sm">
-                2018 - 2019
-              </h1>
+            <hr className="bg-cyan-500" />
+          </li>
+          <li>
+            <hr className="bg-cyan-500" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
             </div>
-            <div className="order-1 rounded-lg shadow-xl w-5/12 px-6 py-4">
-              <h3 className="mb-3 font-bold text-xl">
-                Intern Software Engineer{" "}
-                <a href="https://inthecode.com.au/" className="text-cyan-400">
-                  @InTheCode
-                </a>
-              </h3>
-              <p className="text-sm leading-snug tracking-wide text-opacity-100">
-                As a software developer intern at In The Code, I was responsible
-                for testing and developing both front-end and back-end features
-                for different client projects. I committed to completing various
-                tasks weekly within an Agile culture.
-              </p>
-              <ul className="mt-4 grid grid-cols-2 gap-y-3 p-0 ml-5 overflow-hidden list-none">
-                {skills3.map((skill, i) => (
-                  <li
-                    className="relative text-sm mb-2 pl-5 before:content-['>'] before:text-xs before:align-middle before:mr-2 before:text-cyan-500"
-                    key={i}
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+            <div className="timeline-end mb-10">
+              <time className="font-mono italic">2018</time>
+              <div className="text-lg font-black mb-5">
+                Software Engineer Intern <a className="text-cyan-500">@ITC</a>
+              </div>
+              As a software developer intern at In The Code, I was responsible
+              for testing and developing both front-end and back-end features
+              for different client projects. I committed to completing various
+              tasks weekly within an Agile culture.
             </div>
-          </div>
-        </div>
+            <hr className="bg-cyan-500" />
+          </li>
+        </ul>
       </div>
     </div>
   );

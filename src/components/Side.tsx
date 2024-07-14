@@ -8,7 +8,7 @@ interface SideProps {
 export const Side = (props: SideProps) => {
   return (
     <div
-      className={`w-10 fixed bottom-0 z-10 text-slate-300 ${
+      className={`w-10 fixed bottom-0 z-10 text-slate-300 hidden lg:block ${
         props.orientation === "left"
           ? "left-10 right-auto"
           : "left-auto right-10"
