@@ -5,9 +5,9 @@ const IconLogo = () => (
   <div>
     <Image
       priority
-      src="/logo.svg"
-      height={100}
-      width={100}
+      src="/logo_bigger.svg"
+      height={50}
+      width={50}
       alt="logo"
       className="max-w-none"
     />

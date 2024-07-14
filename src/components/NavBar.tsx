@@ -3,8 +3,8 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import IconLogo from "./icons/logo";
 import { IconSecondBrain } from "./icons/secondBrain";
-import { Button } from "./Button";
 import ScrollLink from "./ScrollLink";
+import { Button } from "./Button";
 
 const navBarItems = [
   { name: "About", url: "/#about" },
@@ -32,7 +32,7 @@ export const NavBar = () => {
 
   return (
     <div className="navbar backdrop-blur-sm fixed z-20">
-      <div className="navbar-start">
+      <div className="navbar-start ml-5">
         <IconLogo></IconLogo>
       </div>
       <div className="navbar-end">
@@ -71,6 +71,14 @@ export const NavBar = () => {
                   </ScrollLink>
                 </li>
               ))}
+            <li className="flex items-center">
+              <Button href="https://publish.obsidian.md/pureza-digital-garden/Welcome+to+my+Digital+Garden">
+                Second Brain
+                <div className="ml-2">
+                  <IconSecondBrain />
+                </div>
+              </Button>
+            </li>
           </ul>
         </div>
       </div>
@@ -94,11 +102,14 @@ export const NavBar = () => {
                 </ScrollLink>
               </li>
             ))}
-          <li className="text-cyan-500 mr-1 flex items-center">]</li>
+          <li className="text-cyan-500 mr-5 flex items-center">]</li>
           <li className="flex items-center">
-            <button className="btn btn-outline text-cyan-500 mx-1 flex items-center">
-              Second Brain <IconSecondBrain />
-            </button>
+            <Button href="https://publish.obsidian.md/pureza-digital-garden/Welcome+to+my+Digital+Garden">
+              Second Brain
+              <div className="ml-2">
+                <IconSecondBrain />
+              </div>
+            </Button>
           </li>
         </ul>
       </div>
