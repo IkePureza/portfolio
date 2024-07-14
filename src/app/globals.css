@@ -16,6 +16,7 @@
     overflow-x: hidden;
     line-height: 1.3;
     background-color: #0a192f;
+    background: linear-gradient(rgba(10,25,47,.6),rgba(0,0,0,.2)),  repeating-linear-gradient(90deg, transparent, transparent  0.0625rem, black 0.5rem, black 0.5rem), repeating-linear-gradient(0, transparent, transparent  0.0625rem, black 0.5rem, black 0.5rem);
   }
 }
 
