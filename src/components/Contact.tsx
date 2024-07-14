@@ -4,7 +4,7 @@ import { Button } from "./Button";
 export const Contact = () => {
   return (
     <section id="contact">
-      <div className="flex relative w-full">
+      <div className="flex relative w-full mb-10">
         <p className="text-cyan-500 mb-4 mr-2">[3]</p>
         <h2 className="text-glitch text-3xl ">&lt;Contact&gt;</h2>
       </div>

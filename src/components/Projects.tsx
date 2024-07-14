@@ -29,16 +29,16 @@ const projects: ProjectCardProps[] = [
 
 export const Projects = () => {
   return (
-    <section id="projects">
-      <div className="py-28">
+    <section id="projects" className="container mx-auto px-4">
+      <div className="py-16 md:py-28">
         <div className="flex items-center relative w-full">
           <p className="text-cyan-500 mb-4 mr-2">[2]</p>
-          <h2 className="text-glitch text-3xl ">&lt;Projects&gt;</h2>
+          <h2 className="text-glitch text-2xl md:text-3xl">&lt;Projects&gt;</h2>
         </div>
-        <div className="flex flex-col py-28 justify-center items-center">
+        <div className="flex flex-col py-16 md:py-28 justify-center items-center">
           {projects &&
             projects.map((props, i) => (
-              <div key={i} className="max-w-4xl mb-8">
+              <div key={i} className="w-full max-w-4xl mb-8">
                 <ProjectCard {...props}></ProjectCard>
               </div>
             ))}
