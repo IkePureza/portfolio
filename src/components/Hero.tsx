@@ -1,7 +1,9 @@
 import React from "react";
 
 export const Hero = () => {
-  const one = <h1 className="text-sm text-cyan-500 mb-8 ml-1">Welcome, I'm</h1>;
+  const one = (
+    <h1 className="text-sm text-cyan-500 mb-8 ml-1">Welcome, I&apos;m</h1>
+  );
   const two = (
     <i>
       <h2 className="text-glitch text-6xl mb-2 font-sans">Henrique Pureza</h2>

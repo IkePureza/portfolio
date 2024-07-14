@@ -14,13 +14,13 @@ export const About = () => {
         <div className="ml-4 mt-2 flex flex-col">
           <p className="mb-4">Hey&#128075;</p>
           <p className="mb-4">
-            Welcome to my portfolio! I'm Henrique, formerly a computer and
+            Welcome to my portfolio! I&apos;m Henrique, formerly a computer and
             software systems student at the University of Melbourne. Currently a
             full stack software engineer at Secure Code Warrior.
           </p>
 
           <p className="mb-4">
-            I've been thinking a lot about AI recently and it&apos;s
+            I&apos;ve been thinking a lot about AI recently and it&apos;s
             applications. Check out my second brain where I&apos;m learning in
             public!
           </p>
