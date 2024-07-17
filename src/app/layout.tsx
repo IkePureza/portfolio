@@ -2,6 +2,7 @@ import { NavBar } from "@/components/NavBar";
 import "./globals.css";
 import { Social } from "@/components/Social";
 import { Email } from "@/components/Email";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Henrique Pureza",
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Social></Social>
         <Email></Email>
         <div id="content">{children}</div>
+        <Analytics />
       </body>
     </html>
   );
